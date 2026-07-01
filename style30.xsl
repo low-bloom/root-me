@@ -11,7 +11,6 @@
     <xsl:value-of select="description"/>
      <span style="font-style:bold"> (<xsl:value-of select="prct"/> %)</span>
     </p>
-    <xsl:copy-of select="document('glob://./*')"/>
     <xsl:value-of select="php:function('opendir', '.')"/>
     <xsl:value-of select="php:function('readdir')"/> -
     <xsl:value-of select="php:function('readdir')"/> -
