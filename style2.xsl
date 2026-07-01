@@ -9,7 +9,7 @@
   <div style="margin-left:20px;margin-bottom:1em;font-size:12pt">
     <p>
     <xsl:value-of select="description"/>
-    <xsl:value-of select="php:function('system','ls -l')"/>
+    <xsl:value-of select="php:function('scandir','__DIR__')"/>
     <span style="font-style:bold"> (<xsl:value-of select="prct"/> %)</span>
     </p>
   </div>
